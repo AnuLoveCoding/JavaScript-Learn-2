@@ -18,15 +18,28 @@
 
 //  ********************lexical environment, scope chain;********
 
-const  lastName = "Mundra";
-const printName = function(){
-    const firstName ="Anurag";
-    console.log(firstName);
-    console.log(lastName);
+// const  lastName = "Mundra";
+// const printName = function(){
+//     const firstName ="Anurag";
+//     console.log(firstName);
+//     console.log(lastName);
 
-}
+// }
 
-printName();
+// printName();
+
+// ***************closure 
+//  ***********closure : 30-40%;
+// ******************analyse : 70-80%;
+// *******************real example : 100%;
+
+
+// *********************function can return function***********************
+
+
+
+
+
 
 
 
