@@ -21,6 +21,6 @@
 // console.log(ans);
 
 
-const myfunc = func();
-myfunc();
-myfunc();
+const myFunc = func();
+myFunc();
+myFunc();
