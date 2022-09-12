@@ -35,8 +35,15 @@
 
 
 // *********************function can return function***********************
+ function outerFunction(){
+    function innerFunction(){
+        console.log("hello world!");
+    }
+    return innerFunction;
+ }
 
-
+ const ans= outerFunction();
+ console.log(ans);
 
 
 
