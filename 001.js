@@ -36,10 +36,18 @@
 // console.log(fullName);
 
 // Uncaught RefrenceError:
-// Cannot acces "firstname" before Intialization
-console.log(firstName);
+// Cannot acces "firstname" before Intialization;
+
+console.log(firstName); // temporial  red zone;
 let firstName ="Anurag";
 console.log(firstName);
+
+//  compilation :- 1.) errors 2.) scope
+//  code :- IN order to execute Js code Js creates execution context;
+// 1.) creation phase;
+// 2.) line by line code execution;
+
+
 
 
 
