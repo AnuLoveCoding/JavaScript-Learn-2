@@ -21,10 +21,12 @@
 // console.log(ans);
 
 
-const myFunc = func();
-myFunc();
-myFunc();
+// const myFunc = func();
+// myFunc();
+// myFunc();
 
- const myFunc2= func();
- myFunc2();
- myFunc2();
+//  const myFunc2 = func();
+//  myFunc2();
+//  myFunc2();
+
+ console.log("anurag")
