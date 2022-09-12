@@ -29,4 +29,20 @@
 //  myFunc2();
 //  myFunc2();
 
- console.log("anurag")
+//  console.log("anurag")
+
+function func(){
+     let counter=0;
+    return function(){
+        if(counter<1){
+            console.log("hi you called me");
+            counter++;
+        }else{
+            console.log("mai already ek bar call ho ckuha hoo!");
+        }
+    }
+}
+const myFunc =func();
+myFunc();
+myFunc();
+myFunc();
