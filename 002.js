@@ -35,17 +35,26 @@
 
 
 // *********************function can return function***********************
- function outerFunction(){
-    function innerFunction(){
+//  function outerFunction(){
+//     function innerFunction(){
+//         console.log("hello world!");
+//     }
+//     return innerFunction;
+//  }
+
+//  const ans= outerFunction();
+//  console.log(ans);
+
+
+function printFullName(firstName,lastName){
+    function printName(){
         console.log("hello world!");
     }
     return innerFunction;
  }
 
- const ans= outerFunction();
+ const ans= printFullName("Anurag","Mundra");
  console.log(ans);
-
-
 
 
 
