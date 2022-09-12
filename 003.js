@@ -24,3 +24,7 @@
 const myFunc = func();
 myFunc();
 myFunc();
+
+ const myFunc2= func();
+ myFunc2();
+ myFunc2();
